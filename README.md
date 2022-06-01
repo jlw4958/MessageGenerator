@@ -10,6 +10,8 @@ Except, I wanted things to be a bit more interesting, so I added some other func
 - Sign in and see your message exclusively!
 - Edit your message, delete it even!
 
+The program just prints straight to the VS Console :D
+
 She's currently still in the works, but I've got some important core functionality working for the visual aspect of the message delivery.
 Check back to see if the task list has been updated ;-)
 
