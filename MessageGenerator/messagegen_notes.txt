@@ -1,0 +1,35 @@
+have a message already
+loop through the alphabet to find each letter in the message
+message depends on a prompt from the user
+
+plan!!
+- ask for user's name (first and last)
+- is name saved?
+	- if not, save name (you'll need a file for this)
+	- if it is, find the message related to it
+
+---this is a menu---
+- ask user if they want to write a message
+	- if they already have one, ask if they want to overwrite it
+		- if yes, overwrite
+- ask user if they want to read/print message
+	- this is where we do the "loop through the alphabet" thing
+- ask user if they want to save current message
+	- if yes, save file
+- ask user if they want to exit
+	- if yes, say goodbye and end program
+---end of menu---
+
+save name and message info to a dictionary
+
+---function planning---
+what do we need to be able to do?
+
+- read in file
+- write to file
+- loop through alphabet + print to console
+^^^make that a method
+
+probably use the unicode characters for the punctuation
+
+there's a code for spaces (of course) so rewrite original array population loop to include spaces, numbers, and punctuation

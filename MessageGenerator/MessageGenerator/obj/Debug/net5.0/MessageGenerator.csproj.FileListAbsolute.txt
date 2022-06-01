@@ -1,0 +1,16 @@
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.exe
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.deps.json
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.runtimeconfig.json
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.runtimeconfig.dev.json
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.dll
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\ref\MessageGenerator.dll
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\bin\Debug\net5.0\MessageGenerator.pdb
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.csproj.AssemblyReference.cache
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.AssemblyInfoInputs.cache
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.AssemblyInfo.cs
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.csproj.CoreCompileInputs.cache
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.dll
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\ref\MessageGenerator.dll
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.pdb
+C:\Users\jabwa\Documents\GitHub\jlw4958\MessageGenerator\MessageGenerator\obj\Debug\net5.0\MessageGenerator.genruntimeconfig.cache
