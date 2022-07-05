@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Globalization;
+using System.Threading;
 
 namespace MessageGenerator
 {
@@ -52,6 +53,7 @@ namespace MessageGenerator
                     if ((int)array[j] >= 97 && (int)array[j] <= 122 )
                     {
                         Console.WriteLine(finalWord + array[j]);
+                        Thread.Sleep(50);
                     }
                     if (array[j] == word[i])
                     {

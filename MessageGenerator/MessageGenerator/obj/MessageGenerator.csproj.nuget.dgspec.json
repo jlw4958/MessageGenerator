@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jabwa\\Documents\\GitHub\\jlw4958\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj": {}
+    "C:\\Users\\jabwa\\Documents\\GitHub\\MessageGenerator\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jabwa\\Documents\\GitHub\\jlw4958\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj": {
+    "C:\\Users\\jabwa\\Documents\\GitHub\\MessageGenerator\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jabwa\\Documents\\GitHub\\jlw4958\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\jabwa\\Documents\\GitHub\\MessageGenerator\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj",
         "projectName": "MessageGenerator",
-        "projectPath": "C:\\Users\\jabwa\\Documents\\GitHub\\jlw4958\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj",
+        "projectPath": "C:\\Users\\jabwa\\Documents\\GitHub\\MessageGenerator\\MessageGenerator\\MessageGenerator\\MessageGenerator.csproj",
         "packagesPath": "C:\\Users\\jabwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jabwa\\Documents\\GitHub\\jlw4958\\MessageGenerator\\MessageGenerator\\obj\\",
+        "outputPath": "C:\\Users\\jabwa\\Documents\\GitHub\\MessageGenerator\\MessageGenerator\\MessageGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
