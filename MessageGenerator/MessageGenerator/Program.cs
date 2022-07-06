@@ -8,18 +8,41 @@ namespace MessageGenerator
     {
         static void Main(string[] args)
         {
+            string userResponse = "";
+            char[] alphArray = new char[95];
 
+            alphArray = ArraySetup();
+
+            //getting user input:
+            //prompt user
+            //receive input
+            //check for the following:
+            // - empty response
+
+            while (String.IsNullOrEmpty(userResponse))
+            {
+                Console.Write("What phrase would you like us to display? ");
+                userResponse = Console.ReadLine();
+                if (String.IsNullOrEmpty(userResponse))
+                {
+                    Console.WriteLine("Please provide a response :(");
+                }
+            }
+
+            AlphabetShuffle(alphArray, userResponse);
+        }
+
+        /// <summary>
+        /// this method sets up the array of characters we iterate through
+        /// </summary>
+        /// <returns></returns>
+        public static char[] ArraySetup()
+        {
             char[] alphArray = new char[95];
 
             //number for populating the array
             int num = 0;
 
-            //populating the array with letters, numbers, and symbols
-            //for (int i = 32; i < 126; i++)
-            //{
-            //    alphArray[num] = (char)i;
-            //    num++;
-            //}
 
             //adding lowercase letters first
             for (int i = 97; i < 123; i++)
@@ -35,14 +58,16 @@ namespace MessageGenerator
                 num++;
             }
 
-            AlphabetShuffle(alphArray, "Eat your chicken nuggets >:(");
+            return alphArray;
         }
 
+        /// <summary>
+        /// this array gives us our final returned word or phrase
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="word"></param>
         public static void AlphabetShuffle(char[] array, string word)
         {
-            ////all lowercase for now!
-            //word = word.ToLower();
-
             string finalWord = "";
 
             //comparing to the text
