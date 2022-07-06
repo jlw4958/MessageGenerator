@@ -25,7 +25,7 @@ Feel free to look at my notes to see my funky little thought process~
 
 ## Task List
 - [x] Iterate through alphabet, numbers, and symbols to print a prompted message
-- [ ] Get user input to deliver a different message
+- [x] Get user input to deliver a different message
 - [ ] Save messages to a file (and prompt users to save)
 - [ ] Prompt user to delete message
 - [ ] Prompt user to edit message
