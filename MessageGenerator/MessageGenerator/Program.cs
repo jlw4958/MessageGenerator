@@ -23,7 +23,7 @@ namespace MessageGenerator
             {
                 while (String.IsNullOrEmpty(userResponse))
                 {
-                    Console.Write("What phrase would you like us to display? ");
+                    Console.Write("What phrase would you like us to display? (Enter q to quit): ");
                     userResponse = Console.ReadLine();
                     if (String.IsNullOrEmpty(userResponse))
                     {
