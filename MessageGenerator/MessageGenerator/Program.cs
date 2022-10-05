@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Threading;
+using System.IO;
 
 namespace MessageGenerator
 {
@@ -50,6 +51,20 @@ namespace MessageGenerator
                 userResponse = "";
             }
         }
+
+        // how do we want our file to be set up?
+        // we need username + password + associated phrase
+        // all of that can be a part of one string? we'll have one symbol be unavailable for phrases in that case (maybe ^)
+        // split on ^
+        // username will be array[0], password will be array[1], phrase will be array [2]
+        // how do we find the right username in the file?
+        //  - line.contains
+        // for each line in the file
+        // if line.Contains(username)
+        //  - prompt for password
+        //  - if line.Contains(password)
+        //      - populate array
+        //      - userResponse = array[2]
 
         /// <summary>
         /// this method sets up the array of characters we iterate through
