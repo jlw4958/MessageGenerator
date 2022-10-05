@@ -19,17 +19,36 @@ namespace MessageGenerator
             //check for the following:
             // - empty response
 
-            while (String.IsNullOrEmpty(userResponse))
+            while (userResponse != "q")
             {
-                Console.Write("What phrase would you like us to display? ");
-                userResponse = Console.ReadLine();
-                if (String.IsNullOrEmpty(userResponse))
+                while (String.IsNullOrEmpty(userResponse))
                 {
-                    Console.WriteLine("Please provide a response :(");
+                    Console.Write("What phrase would you like us to display? ");
+                    userResponse = Console.ReadLine();
+                    if (String.IsNullOrEmpty(userResponse))
+                    {
+                        Console.WriteLine("Please provide a response :(");
+                    }
                 }
-            }
+                if (userResponse == "q")
+                {
+                    Console.Write("Are you sure you want to quit? y/n: ");
+                    userResponse = Console.ReadLine();
+                    if (userResponse.ToLower() == "y")
+                    {
+                        Console.Write("Goodbye!");
+                        break;
+                    }
+                    else
+                    {
+                        userResponse = "";
+                    }
+                }
 
-            AlphabetShuffle(alphArray, userResponse);
+                AlphabetShuffle(alphArray, userResponse);
+
+                userResponse = "";
+            }
         }
 
         /// <summary>
